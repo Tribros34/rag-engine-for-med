@@ -1,0 +1,17 @@
+# Gray's Anatomy of the Human Body, 20th ed. (1918) — Katman 2.
+# Kaynak: Internet Archive "anatomyofhumanbo00grayrich" (possible-copyright-status: NOT_IN_COPYRIGHT).
+#   https://archive.org/details/anatomyofhumanbo00grayrich  (tek dosya OCR metni, scraping yok)
+# Wikisource'ta yalnızca Embriyoloji alt sayfası var; Bartleby /107/ 403 döndürüyor (R12 — kullanılmadı).
+#
+# Bu taramada ana bölümler OCR üst başlıklarıyla ayrılır. Arterler / Venler / Lenfatik sistem
+# (Bartleby VI–VIII) "ANGIOLOGY" altında; Duyu organları ve deri (X) "NEUROLOGY" altında yer alır.
+# I (Embriyoloji) ve XII (Yüzey anatomisi) opsiyonel — onay gelene kadar include: false.
+end_key: INDEX
+parts:
+  - {key: EMBRYOLOGY, label: "I. Embryology", slug: embryology, include: false}
+  - {key: OSTEOLOGY, label: "II. Osteology", slug: osteology}
+  - {key: SYNDESMOLOGY, label: "III. Syndesmology", slug: syndesmology}
+  - {key: MYOLOGY, label: "IV. Myology", slug: myology}
+  - {key: ANGIOLOGY, label: "V–VIII. Angiology", slug: angiology}
+  - {key: NEUROLOGY, label: "IX–X. Neurology", slug: neurology}
+  - {key: SPLANCHNOLOGY, label: "XI. Splanchnology", slug: splanchnology}

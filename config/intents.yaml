@@ -1,0 +1,33 @@
+# Niyet tespiti anahtar kelime kökleri (Bölüm 7.5).
+# Eşleşme: soru casefold edilir, kök alt dize olarak aranır. Sonuç bir LİSTE'dir.
+keywords:
+  innervasyon: [sinir, innerve, innervasyon, inervasyon, nerv, "hangi sinir"]
+  kanlanma: [arter, atardamar, toplardamar, " ven", "ven ", venöz, damar, kanlanma, "kan ", "kanı", "kan akımı", drenaj, "boşal"]
+  yapisma: [yapış, tutun, origo, insersiyo, "başlangıç yeri", "nereden başla", "bağlan", "kaslar", "hangi kas"]
+  eklem: [eklem, artikül, "bağ ", bağlar, ligament, menisk]
+  fonksiyon: [görev, fonksiyon, işlev, hareket, "ne işe yarar", "ne yapar", fleksiyon, ekstansiyon, abduksiyon, adduksiyon, rotasyon, "büker", "uzatır", "salgıla"]
+  klinik: [kırık, kırığ, hasar, yaralan, klinik, hastalık, ağrı, felç, "ameliyat", "çıkık", sendrom, lezyon]
+  konum_komsuluk: [nerede, konum, komşu, "yer alır", "bulunur", "ilişki", "önünde", "arkasında", "yanında", "altında", "üstünde"]
+  gelisim: [gelişim, embriyo, kemikleş, ossifik, "fetal", "doğum öncesi"]
+  tanim: ["nedir", "tanım", "ne demek", "yapısı", "kısımları", "bölümleri", "parçaları"]
+
+# Belirsiz kökler: birden fazla niyete eşlenir.
+ambiguous:
+  besle: [kanlanma, innervasyon]
+  "ile ilişki": [konum_komsuluk, eklem]
+  "bağlantı": [eklem, yapisma]
+
+# Kart hızlı yolu (LLM'siz): soru boşsa veya bu kalıplardan biriyle tam/öncül eşleşirse kart döner.
+card_patterns:
+  - "bu nedir"
+  - "nedir"
+  - "bu ne"
+  - "anlat"
+  - "bunu anlat"
+  - "kısaca anlat"
+  - "genel bilgi"
+  - "özetle"
+  - "tanımla"
+  - "what is this"
+  - "what is it"
+  - "describe"

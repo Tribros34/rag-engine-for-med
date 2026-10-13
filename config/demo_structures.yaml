@@ -1,0 +1,23 @@
+# İlk demoda kart üretilecek yapılar (Bölüm 7.7). ID değil, Uberon İngilizce adı (R2).
+structures:
+  - femur
+  - humerus
+  - tibia
+  - scapula
+  - patella
+  - vertebral column
+  - gluteus maximus
+  - biceps brachii
+  - quadriceps femoris
+  - deltoid
+  - diaphragm
+  - knee joint
+  - hip joint
+  - heart
+  - lung
+  - liver
+  - stomach
+  - brain
+  - spinal cord
+  - sciatic nerve
+  - femoral artery

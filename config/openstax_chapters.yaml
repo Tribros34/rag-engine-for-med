@@ -1,0 +1,56 @@
+# OpenStax Anatomy & Physiology (1e) — indekslenecek bölümler (Bölüm 3, Katman 1).
+# Kaynak: https://github.com/philschatz/anatomy-book (SUMMARY.md başlıkları birebir).
+# LICENSE.txt doğrulaması: "Creative Commons Attribution 3.0 Unported License" (CC BY 3.0).
+# Not: master prompt "CC BY 4.0" diyor; depo CC BY 3.0 diyor. İkisi de ticari kullanım ve
+# türev esere izin veren atıf lisansıdır; atıfta depodaki sürüm (3.0) kullanılır.
+license: "CC BY 3.0"
+attribution: "OpenStax, Anatomy and Physiology. Rice University. CC BY."
+
+# chapter başlığı: {exclude_sections: [...]}  — listelenmeyen bölüm alınmaz.
+chapters:
+  The Integumentary System:
+    exclude_sections: [Functions of the Integumentary System]
+  Bone Tissue and the Skeletal System:
+    exclude_sections:
+      - Exercise, Nutrition, Hormones, and Bone Tissue
+      - "Calcium Homeostasis: Interactions of the Skeletal System and Other Organ Systems"
+  Axial Skeleton:
+  The Appendicular Skeleton:
+  Joints:
+  The Muscular System:
+    exclude_sections: []
+  Anatomy of the Nervous System:
+  The Somatic Nervous System:
+  The Autonomic Nervous System:
+    exclude_sections: [Drugs that Affect the Autonomic System]
+  The Endocrine System:
+    exclude_sections: [Hormones]
+  "The Cardiovascular System: The Heart":
+    exclude_sections: [Cardiac Muscle and Electrical Activity, Cardiac Cycle, Cardiac Physiology]
+  "The Cardiovascular System: Blood Vessels and Circulation":
+    exclude_sections:
+      - Blood Flow, Blood Pressure, and Resistance
+      - Capillary Exchange
+      - Homeostatic Regulation of the Vascular System
+  The Lymphatic and Immune System:
+    exclude_sections:
+      - Barrier Defenses and the Innate Immune Response
+      - "The Adaptive Immune Response: T lymphocytes and Their Functional Types"
+      - "The Adaptive Immune Response: B-lymphocytes and Antibodies"
+      - The Immune Response against Pathogens
+      - Diseases Associated with Depressed or Overactive Immune Responses
+      - Transplantation and Cancer Immunology
+  The Respiratory System:
+    exclude_sections: [The Process of Breathing, Gas Exchange, Transport of Gases, Modifications in Respiratory Functions]
+  The Digestive System:
+    exclude_sections: [Digestive System Processes and Regulation, "Chemical Digestion and Absorption: A Closer Look"]
+  The Urinary System:
+    exclude_sections:
+      - Physical Characteristics of Urine
+      - Physiology of Urine Formation
+      - Tubular Reabsorption
+      - Regulation of Renal Blood Flow
+      - Endocrine Regulation of Kidney Function
+      - Regulation of Fluid Volume and Composition
+      - The Urinary System and Homeostasis
+  The Reproductive System:

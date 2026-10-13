@@ -1,0 +1,5 @@
+system:
+  skeletal: [skeletal system, bone element]
+  muscular: [musculature of body, muscle organ]
+region:
+  lower_limb: [hindlimb]

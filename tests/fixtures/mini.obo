@@ -1,0 +1,94 @@
+format-version: 1.2
+data-version: test/synthetic
+
+! Sentetik test ontolojisi. ID'ler gerçek değildir (R2): "FMA:9000xx" ve "UBERON:99xxxxx" aralığı
+! yalnızca testler içindir.
+
+[Term]
+id: UBERON:9900001
+name: skeletal system
+xref: FMA:900001
+
+[Term]
+id: UBERON:9900002
+name: hindlimb
+xref: FMA:900002
+
+[Term]
+id: UBERON:9900003
+name: hindlimb skeleton
+xref: FMA:900003
+relationship: part_of UBERON:9900001 ! skeletal system
+relationship: part_of UBERON:9900002 ! hindlimb
+
+[Term]
+id: UBERON:9900004
+name: bone element
+xref: FMA:900004
+
+[Term]
+id: UBERON:9900010
+name: femur
+synonym: "os femoris" RELATED OMO:0003011 [TEST:1]
+synonym: "thigh bone" EXACT []
+synonym: "mesomere of fin" RELATED HOMOLOGY [TEST:2]
+xref: FMA:900010
+is_a: UBERON:9900004 ! bone element
+relationship: part_of UBERON:9900003 ! hindlimb skeleton
+relationship: connected_to UBERON:9900011 ! tibia
+
+[Term]
+id: UBERON:9900011
+name: tibia
+synonym: "shinbone" EXACT []
+xref: FMA:900011
+is_a: UBERON:9900004 ! bone element
+relationship: part_of UBERON:9900003 ! hindlimb skeleton
+
+[Term]
+id: UBERON:9900012
+name: head of femur
+xref: FMA:900012
+relationship: part_of UBERON:9900010 ! femur
+
+[Term]
+id: UBERON:9900013
+name: left femur
+xref: FMA:900013
+is_a: UBERON:9900010 ! femur
+
+[Term]
+id: UBERON:9900020
+name: musculature of body
+xref: FMA:900020
+
+[Term]
+id: UBERON:9900021
+name: muscle organ
+xref: FMA:900021
+relationship: part_of UBERON:9900020 ! musculature of body
+
+[Term]
+id: UBERON:9900022
+name: gluteus maximus
+xref: FMA:900022
+is_a: UBERON:9900021 ! muscle organ
+relationship: has_muscle_insertion UBERON:9900010 ! femur
+relationship: part_of UBERON:9900002 ! hindlimb
+
+[Term]
+id: UBERON:9900030
+name: ulna
+xref: FMA:900030
+is_a: UBERON:9900004 ! bone element
+
+[Term]
+id: UBERON:9900031
+name: flexor carpi ulnaris muscle
+xref: FMA:900031
+is_a: UBERON:9900021 ! muscle organ
+
+[Term]
+id: UBERON:9900040
+name: no fma term
+is_a: UBERON:9900004 ! bone element

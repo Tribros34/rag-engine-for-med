@@ -1,0 +1,399 @@
+# Türkçe ad + tercih edilen Latince (TA) ad sözlüğü.
+# Anahtar: Uberon İngilizce terim adı (ID değil — R2). Çeviriler LLM üretimidir
+# ve uzman onayı bekler (registry'de name_tr_reviewed: false).
+# Kapsanmayan yapılar için: scripts/translate_names.py (LLM gerekli).
+
+# ---------- İskelet: aksiyel ----------
+skull: {tr: Kafatası, la: Cranium}
+tetrapod frontal bone: {tr: Alın kemiği, la: Os frontale}
+tetrapod parietal bone: {tr: Yan kafa kemiği, la: Os parietale}
+occipital bone: {tr: Art kafa kemiği, la: Os occipitale}
+temporal bone: {tr: Şakak kemiği, la: Os temporale}
+sphenoid bone: {tr: Kama kemiği, la: Os sphenoidale}
+ethmoid bone: {tr: Kalbur kemiği, la: Os ethmoidale}
+mandible: {tr: Alt çene kemiği, la: Mandibula}
+maxilla: {tr: Üst çene kemiği, la: Maxilla}
+jugal bone: {tr: Elmacık kemiği, la: Os zygomaticum}
+nasal bone: {tr: Burun kemiği, la: Os nasale}
+lacrimal bone: {tr: Gözyaşı kemiği, la: Os lacrimale}
+palatine bone: {tr: Damak kemiği, la: Os palatinum}
+vomer: {tr: Saban kemiği, la: Vomer}
+hyoid bone: {tr: Dil kemiği, la: Os hyoideum}
+vertebral column: {tr: Omurga, la: Columna vertebralis}
+vertebra: {tr: Omur, la: Vertebra}
+cervical vertebra: {tr: Boyun omuru, la: Vertebra cervicalis}
+thoracic vertebra: {tr: Göğüs omuru, la: Vertebra thoracica}
+lumbar vertebra: {tr: Bel omuru, la: Vertebra lumbalis}
+vertebral bone 1: {tr: Atlas (1. boyun omuru), la: Atlas}
+vertebral bone 2: {tr: Aksis (2. boyun omuru), la: Axis}
+fused sacrum: {tr: Sağrı kemiği, la: Os sacrum}
+coccyx: {tr: Kuyruk sokumu kemiği, la: Os coccygis}
+rib: {tr: Kaburga, la: Costa}
+sternum: {tr: Göğüs kemiği, la: Sternum}
+manubrium of sternum: {tr: Göğüs kemiği sapı, la: Manubrium sterni}
+xiphoid process: {tr: Ksifoid çıkıntı, la: Processus xiphoideus}
+thoracic rib cage: {tr: Göğüs kafesi, la: Compages thoracis}
+intervertebral disk: {tr: Omurlar arası disk, la: Discus intervertebralis}
+
+# ---------- İskelet: üst ekstremite ----------
+clavicle bone: {tr: Köprücük kemiği, la: Clavicula}
+scapula: {tr: Kürek kemiği, la: Scapula}
+humerus: {tr: Pazu kemiği, la: Humerus}
+radius bone: {tr: Döner kemik, la: Radius}
+ulna: {tr: Dirsek kemiği, la: Ulna}
+carpal bone: {tr: El bileği kemiği, la: Os carpi}
+radiale: {tr: Kayık kemiği, la: Os scaphoideum}
+intermedium: {tr: Ay kemiği, la: Os lunatum}
+ulnare: {tr: Üçgen kemik, la: Os triquetrum}
+pisiform: {tr: Bezelye kemiği, la: Os pisiforme}
+distal carpal bone 1: {tr: Trapez kemiği, la: Os trapezium}
+distal carpal bone 2: {tr: Trapezoid kemik, la: Os trapezoideum}
+distal carpal bone 3: {tr: Başlı kemik, la: Os capitatum}
+distal carpal bone 4: {tr: Çengelli kemik, la: Os hamatum}
+metacarpal bone: {tr: El tarak kemiği, la: Os metacarpi}
+forelimb skeleton: {tr: Üst ekstremite iskeleti, la: Skeleton membri superioris}
+
+# ---------- İskelet: alt ekstremite ----------
+femur: {tr: Uyluk kemiği, la: Femur}
+patella: {tr: Diz kapağı kemiği, la: Patella}
+tibia: {tr: Kaval kemiği, la: Tibia}
+fibula: {tr: Baldır kemiği, la: Fibula}
+innominate bone: {tr: Kalça kemiği, la: Os coxae}
+ilium: {tr: Bağırsak kemiği (ilium), la: Os ilium}
+ischium: {tr: Oturga kemiği, la: Os ischii}
+pubis: {tr: Çatı kemiği, la: Os pubis}
+tarsal bone: {tr: Ayak bileği kemiği, la: Os tarsi}
+talus: {tr: Aşık kemiği, la: Talus}
+calcaneus: {tr: Topuk kemiği, la: Calcaneus}
+navicular bone of pes: {tr: Ayak kayık kemiği, la: Os naviculare}
+cuboid bone: {tr: Küp kemik, la: Os cuboideum}
+metatarsal bone: {tr: Ayak tarak kemiği, la: Os metatarsi}
+pelvic girdle skeleton: {tr: Pelvis kemer iskeleti, la: Cingulum pelvicum}
+hindlimb skeleton: {tr: Alt ekstremite iskeleti, la: Skeleton membri inferioris}
+head of femur: {tr: Uyluk kemiği başı, la: Caput femoris}
+neck of femur: {tr: Uyluk kemiği boynu, la: Collum femoris}
+greater trochanter: {tr: Büyük trokanter, la: Trochanter major}
+lesser trochanter: {tr: Küçük trokanter, la: Trochanter minor}
+acetabular part of hip bone: {tr: Asetabulum (kalça çukuru), la: Acetabulum}
+
+# ---------- Eklemler ----------
+skeletal joint: {tr: Eklem, la: Articulatio}
+synovial joint: {tr: Sinovyal eklem, la: Articulatio synovialis}
+hip joint: {tr: Kalça eklemi, la: Articulatio coxae}
+knee joint: {tr: Diz eklemi, la: Articulatio genus}
+elbow joint: {tr: Dirsek eklemi, la: Articulatio cubiti}
+wrist joint: {tr: El bileği eklemi, la: Articulatio radiocarpalis}
+ankle joint: {tr: Ayak bileği eklemi, la: Articulatio talocruralis}
+temporomandibular joint: {tr: Çene eklemi, la: Articulatio temporomandibularis}
+sacro-iliac joint: {tr: Sakroiliak eklem, la: Articulatio sacroiliaca}
+pubic symphysis: {tr: Çatı bitişimi, la: Symphysis pubica}
+anterior cruciate ligament of knee joint: {tr: Ön çapraz bağ, la: Ligamentum cruciatum anterius}
+posterior cruciate ligament of knee joint: {tr: Arka çapraz bağ, la: Ligamentum cruciatum posterius}
+ligament: {tr: Bağ, la: Ligamentum}
+
+# ---------- Kaslar ----------
+musculature of body: {tr: Kas sistemi, la: Systema musculare}
+muscle organ: {tr: Kas, la: Musculus}
+tendon: {tr: Tendon (kiriş), la: Tendo}
+diaphragm: {tr: Diyafram, la: Diaphragma}
+masseter muscle: {tr: Çiğneme kası (masseter), la: Musculus masseter}
+temporalis muscle: {tr: Şakak kası, la: Musculus temporalis}
+orbicularis oculi muscle: {tr: Göz çevresi halka kası, la: Musculus orbicularis oculi}
+orbicularis oris muscle: {tr: Ağız çevresi halka kası, la: Musculus orbicularis oris}
+sternocleidomastoid: {tr: Göğüs-köprücük-meme kası, la: Musculus sternocleidomastoideus}
+trapezius muscle: {tr: Trapez kası, la: Musculus trapezius}
+latissimus dorsi muscle: {tr: Geniş sırt kası, la: Musculus latissimus dorsi}
+erector spinae muscle group: {tr: Omurga dikleştirici kaslar, la: Musculus erector spinae}
+pectoralis major: {tr: Büyük göğüs kası, la: Musculus pectoralis major}
+pectoralis minor: {tr: Küçük göğüs kası, la: Musculus pectoralis minor}
+serratus ventralis: {tr: Ön dişli kas, la: Musculus serratus anterior}
+external intercostal muscle: {tr: Dış interkostal kas, la: Musculus intercostalis externus}
+internal intercostal muscle: {tr: İç interkostal kas, la: Musculus intercostalis internus}
+rectus abdominis muscle: {tr: Düz karın kası, la: Musculus rectus abdominis}
+abdominal external oblique muscle: {tr: Dış eğik karın kası, la: Musculus obliquus externus abdominis}
+abdominal internal oblique muscle: {tr: İç eğik karın kası, la: Musculus obliquus internus abdominis}
+transversus abdominis muscle: {tr: Enine karın kası, la: Musculus transversus abdominis}
+deltoid: {tr: Deltoid kas, la: Musculus deltoideus}
+supraspinatus muscle: {tr: Supraspinatus kası, la: Musculus supraspinatus}
+infraspinatus muscle: {tr: İnfraspinatus kası, la: Musculus infraspinatus}
+teres minor muscle: {tr: Küçük yuvarlak kas, la: Musculus teres minor}
+teres major muscle: {tr: Büyük yuvarlak kas, la: Musculus teres major}
+subscapularis muscle: {tr: Subskapularis kası, la: Musculus subscapularis}
+biceps brachii: {tr: Pazu kası (iki başlı kol kası), la: Musculus biceps brachii}
+triceps brachii: {tr: Üç başlı kol kası, la: Musculus triceps brachii}
+brachialis muscle: {tr: Kol kası (brakiyalis), la: Musculus brachialis}
+coracobrachialis muscle: {tr: Korakobrakiyalis kası, la: Musculus coracobrachialis}
+brachioradialis: {tr: Brakiyoradiyalis kası, la: Musculus brachioradialis}
+pronator teres: {tr: Yuvarlak pronatör kas, la: Musculus pronator teres}
+flexor carpi radialis muscle: {tr: Radiyal el bileği fleksör kası, la: Musculus flexor carpi radialis}
+flexor carpi ulnaris muscle: {tr: Ulnar el bileği fleksör kası, la: Musculus flexor carpi ulnaris}
+palmaris longus muscle: {tr: Uzun avuç içi kası, la: Musculus palmaris longus}
+gluteus maximus: {tr: Büyük kalça kası, la: Musculus gluteus maximus}
+gluteus medius: {tr: Orta kalça kası, la: Musculus gluteus medius}
+gluteus minimus: {tr: Küçük kalça kası, la: Musculus gluteus minimus}
+piriformis muscle: {tr: Armut biçimli kas, la: Musculus piriformis}
+iliopsoas: {tr: İliopsoas kası, la: Musculus iliopsoas}
+psoas major muscle: {tr: Büyük bel kası, la: Musculus psoas major}
+iliacus muscle: {tr: İliak kas, la: Musculus iliacus}
+tensor fasciae latae muscle: {tr: Uyluk zarı germe kası, la: Musculus tensor fasciae latae}
+sartorius muscle: {tr: Terzi kası, la: Musculus sartorius}
+quadriceps femoris: {tr: Dört başlı uyluk kası, la: Musculus quadriceps femoris}
+rectus femoris: {tr: Düz uyluk kası, la: Musculus rectus femoris}
+vastus lateralis: {tr: Dış geniş kas, la: Musculus vastus lateralis}
+vastus medialis: {tr: İç geniş kas, la: Musculus vastus medialis}
+vastus intermedius: {tr: Ara geniş kas, la: Musculus vastus intermedius}
+adductor longus: {tr: Uzun adduktor kas, la: Musculus adductor longus}
+adductor brevis: {tr: Kısa adduktor kas, la: Musculus adductor brevis}
+adductor magnus: {tr: Büyük adduktor kas, la: Musculus adductor magnus}
+gracilis: {tr: İnce kas, la: Musculus gracilis}
+pectineus muscle: {tr: Pektineus kası, la: Musculus pectineus}
+biceps femoris: {tr: İki başlı uyluk kası, la: Musculus biceps femoris}
+semitendinosus: {tr: Yarı kirişli kas, la: Musculus semitendinosus}
+semimembranosus muscle: {tr: Yarı zarlı kas, la: Musculus semimembranosus}
+gastrocnemius: {tr: Baldır kası (gastroknemius), la: Musculus gastrocnemius}
+soleus muscle: {tr: Soleus kası, la: Musculus soleus}
+tibialis anterior: {tr: Ön kaval kası, la: Musculus tibialis anterior}
+tibialis posterior: {tr: Arka kaval kası, la: Musculus tibialis posterior}
+fibularis longus: {tr: Uzun fibular kas, la: Musculus fibularis longus}
+calcaneal tendon: {tr: Aşil tendonu, la: Tendo calcaneus}
+
+# ---------- Sinir sistemi ----------
+nervous system: {tr: Sinir sistemi, la: Systema nervosum}
+central nervous system: {tr: Merkezi sinir sistemi, la: Systema nervosum centrale}
+peripheral nervous system: {tr: Çevresel sinir sistemi, la: Systema nervosum periphericum}
+autonomic nervous system: {tr: Otonom sinir sistemi, la: Systema nervosum autonomicum}
+brain: {tr: Beyin, la: Encephalon}
+telencephalon: {tr: Uç beyin, la: Cerebrum}
+cerebral cortex: {tr: Beyin kabuğu, la: Cortex cerebri}
+cerebellum: {tr: Beyincik, la: Cerebellum}
+brainstem: {tr: Beyin sapı, la: Truncus encephali}
+medulla oblongata: {tr: Soğancık, la: Medulla oblongata}
+pons: {tr: Köprü, la: Pons}
+midbrain: {tr: Orta beyin, la: Mesencephalon}
+diencephalon: {tr: Ara beyin, la: Diencephalon}
+hypothalamus: {tr: Hipotalamus, la: Hypothalamus}
+hippocampal formation: {tr: Hipokampus oluşumu, la: Formatio hippocampi}
+corpus callosum: {tr: Nasırlı cisim, la: Corpus callosum}
+frontal lobe: {tr: Alın lobu, la: Lobus frontalis}
+parietal lobe: {tr: Yan kafa lobu, la: Lobus parietalis}
+temporal lobe: {tr: Şakak lobu, la: Lobus temporalis}
+occipital lobe: {tr: Art kafa lobu, la: Lobus occipitalis}
+spinal cord: {tr: Omurilik, la: Medulla spinalis}
+meninx: {tr: Beyin zarları, la: Meninges}
+dura mater: {tr: Sert zar, la: Dura mater}
+arachnoid mater: {tr: Örümceksi zar, la: Arachnoidea mater}
+pia mater: {tr: Yumuşak zar, la: Pia mater}
+cranial nerve: {tr: Kafa siniri, la: Nervus cranialis}
+spinal nerve: {tr: Omurilik siniri, la: Nervus spinalis}
+nerve: {tr: Sinir, la: Nervus}
+olfactory nerve: {tr: Koku siniri, la: Nervus olfactorius}
+cranial nerve II: {tr: Görme siniri, la: Nervus opticus}
+oculomotor nerve: {tr: Göz hareket siniri, la: Nervus oculomotorius}
+trochlear nerve: {tr: Makara siniri, la: Nervus trochlearis}
+trigeminal nerve: {tr: Üçlü sinir, la: Nervus trigeminus}
+abducens nerve: {tr: Uzaklaştırıcı sinir, la: Nervus abducens}
+facial nerve: {tr: Yüz siniri, la: Nervus facialis}
+vestibulocochlear nerve: {tr: İşitme-denge siniri, la: Nervus vestibulocochlearis}
+glossopharyngeal nerve: {tr: Dil-yutak siniri, la: Nervus glossopharyngeus}
+vagus nerve: {tr: Vagus siniri (gezgin sinir), la: Nervus vagus}
+accessory XI nerve: {tr: Aksesuar sinir, la: Nervus accessorius}
+hypoglossal nerve: {tr: Dil altı siniri, la: Nervus hypoglossus}
+brachial nerve plexus: {tr: Kol sinir ağı, la: Plexus brachialis}
+lumbosacral nerve plexus: {tr: Lumbosakral sinir ağı, la: Plexus lumbosacralis}
+median nerve: {tr: Orta sinir, la: Nervus medianus}
+ulnar nerve: {tr: Ulnar sinir, la: Nervus ulnaris}
+radial nerve: {tr: Radiyal sinir, la: Nervus radialis}
+musculocutaneous nerve: {tr: Kas-deri siniri, la: Nervus musculocutaneus}
+axillary nerve: {tr: Koltuk altı siniri, la: Nervus axillaris}
+sciatic nerve: {tr: Siyatik sinir, la: Nervus ischiadicus}
+femoral nerve: {tr: Femoral sinir, la: Nervus femoralis}
+obturator nerve: {tr: Obturator sinir, la: Nervus obturatorius}
+tibial nerve: {tr: Tibial sinir, la: Nervus tibialis}
+common fibular nerve: {tr: Ortak fibular sinir, la: Nervus fibularis communis}
+phrenic nerve: {tr: Frenik sinir, la: Nervus phrenicus}
+sympathetic trunk: {tr: Sempatik gövde, la: Truncus sympathicus}
+
+# ---------- Kalp ve damarlar ----------
+cardiovascular system: {tr: Kalp-damar sistemi, la: Systema cardiovasculare}
+heart: {tr: Kalp, la: Cor}
+heart right ventricle: {tr: Sağ karıncık, la: Ventriculus dexter}
+heart left ventricle: {tr: Sol karıncık, la: Ventriculus sinister}
+right cardiac atrium: {tr: Sağ kulakçık, la: Atrium dextrum}
+left cardiac atrium: {tr: Sol kulakçık, la: Atrium sinistrum}
+mitral valve: {tr: Mitral kapak, la: Valva mitralis}
+tricuspid valve: {tr: Triküspit kapak, la: Valva tricuspidalis}
+aortic valve: {tr: Aort kapağı, la: Valva aortae}
+pulmonary valve: {tr: Pulmoner kapak, la: Valva trunci pulmonalis}
+pericardium: {tr: Kalp zarı, la: Pericardium}
+myocardium: {tr: Kalp kası, la: Myocardium}
+coronary artery: {tr: Koroner arter, la: Arteria coronaria}
+aorta: {tr: Aort, la: Aorta}
+pulmonary trunk: {tr: Pulmoner gövde, la: Truncus pulmonalis}
+common carotid artery plus branches: {tr: Ortak karotis arter, la: Arteria carotis communis}
+internal carotid artery: {tr: İç karotis arter, la: Arteria carotis interna}
+external carotid artery: {tr: Dış karotis arter, la: Arteria carotis externa}
+subclavian artery: {tr: Köprücük altı arter, la: Arteria subclavia}
+axillary artery: {tr: Koltuk altı arteri, la: Arteria axillaris}
+brachial artery: {tr: Kol arteri, la: Arteria brachialis}
+radial artery: {tr: Radiyal arter, la: Arteria radialis}
+ulnar artery: {tr: Ulnar arter, la: Arteria ulnaris}
+celiac artery: {tr: Çölyak gövde, la: Truncus coeliacus}
+superior mesenteric artery: {tr: Üst mezenterik arter, la: Arteria mesenterica superior}
+inferior mesenteric artery: {tr: Alt mezenterik arter, la: Arteria mesenterica inferior}
+renal artery: {tr: Böbrek arteri, la: Arteria renalis}
+common iliac artery: {tr: Ortak iliak arter, la: Arteria iliaca communis}
+external iliac artery: {tr: Dış iliak arter, la: Arteria iliaca externa}
+internal iliac artery: {tr: İç iliak arter, la: Arteria iliaca interna}
+femoral artery: {tr: Femoral arter, la: Arteria femoralis}
+deep femoral artery: {tr: Derin femoral arter, la: Arteria profunda femoris}
+popliteal artery: {tr: Diz arkası arteri, la: Arteria poplitea}
+anterior tibial artery: {tr: Ön tibial arter, la: Arteria tibialis anterior}
+posterior tibial artery: {tr: Arka tibial arter, la: Arteria tibialis posterior}
+vertebral artery: {tr: Omur arteri, la: Arteria vertebralis}
+basilar artery: {tr: Baziler arter, la: Arteria basilaris}
+anterior vena cava: {tr: Üst ana toplardamar, la: Vena cava superior}
+inferior vena cava: {tr: Alt ana toplardamar, la: Vena cava inferior}
+internal jugular vein: {tr: İç juguler ven, la: Vena jugularis interna}
+external jugular vein: {tr: Dış juguler ven, la: Vena jugularis externa}
+subclavian vein: {tr: Köprücük altı veni, la: Vena subclavia}
+hepatic portal vein: {tr: Kapı toplardamarı, la: Vena portae hepatis}
+great saphenous vein: {tr: Büyük safen ven, la: Vena saphena magna}
+small saphenous vein: {tr: Küçük safen ven, la: Vena saphena parva}
+femoral vein: {tr: Femoral ven, la: Vena femoralis}
+blood vessel: {tr: Kan damarı, la: Vas sanguineum}
+artery: {tr: Atardamar (arter), la: Arteria}
+vein: {tr: Toplardamar (ven), la: Vena}
+capillary: {tr: Kılcal damar, la: Vas capillare}
+
+# ---------- Lenfatik ----------
+lymphoid system: {tr: Lenfoid sistem, la: Systema lymphoideum}
+lymph node: {tr: Lenf düğümü, la: Nodus lymphaticus}
+lymphatic vessel: {tr: Lenf damarı, la: Vas lymphaticum}
+thoracic duct: {tr: Göğüs kanalı, la: Ductus thoracicus}
+spleen: {tr: Dalak, la: Splen}
+thymus: {tr: Timus, la: Thymus}
+tonsil: {tr: Bademcik, la: Tonsilla}
+palatine tonsil: {tr: Damak bademciği, la: Tonsilla palatina}
+
+# ---------- Solunum ----------
+respiratory system: {tr: Solunum sistemi, la: Systema respiratorium}
+nasal cavity: {tr: Burun boşluğu, la: Cavitas nasi}
+paranasal sinus: {tr: Paranazal sinüs, la: Sinus paranasalis}
+larynx: {tr: Gırtlak, la: Larynx}
+epiglottis: {tr: Gırtlak kapağı, la: Epiglottis}
+thyroid cartilage: {tr: Kalkansı kıkırdak, la: Cartilago thyroidea}
+laryngeal vocal fold: {tr: Ses teli, la: Plica vocalis}
+trachea: {tr: Soluk borusu, la: Trachea}
+bronchus: {tr: Bronş, la: Bronchus}
+main bronchus: {tr: Ana bronş, la: Bronchus principalis}
+bronchiole: {tr: Bronşiyol, la: Bronchiolus}
+alveolus of lung: {tr: Akciğer alveolü, la: Alveolus pulmonis}
+lung: {tr: Akciğer, la: Pulmo}
+left lung: {tr: Sol akciğer, la: Pulmo sinister}
+right lung: {tr: Sağ akciğer, la: Pulmo dexter}
+pleura: {tr: Akciğer zarı (plevra), la: Pleura}
+
+# ---------- Sindirim ----------
+digestive system: {tr: Sindirim sistemi, la: Systema digestorium}
+mouth: {tr: Ağız, la: Os (cavitas oris)}
+tongue: {tr: Dil, la: Lingua}
+calcareous tooth: {tr: Diş, la: Dens}
+parotid gland: {tr: Kulak altı tükürük bezi, la: Glandula parotidea}
+submandibular gland: {tr: Çene altı tükürük bezi, la: Glandula submandibularis}
+sublingual gland: {tr: Dil altı tükürük bezi, la: Glandula sublingualis}
+esophagus: {tr: Yemek borusu, la: Oesophagus}
+stomach: {tr: Mide, la: Gaster}
+pylorus: {tr: Pilor, la: Pylorus}
+small intestine: {tr: İnce bağırsak, la: Intestinum tenue}
+duodenum: {tr: Onikiparmak bağırsağı, la: Duodenum}
+jejunum: {tr: Boş bağırsak, la: Jejunum}
+ileum: {tr: Kıvrım bağırsak, la: Ileum}
+large intestine: {tr: Kalın bağırsak, la: Intestinum crassum}
+caecum: {tr: Kör bağırsak, la: Caecum}
+vermiform appendix: {tr: Apandis, la: Appendix vermiformis}
+colon: {tr: Kolon, la: Colon}
+rectum: {tr: Rektum (göden bağırsağı), la: Rectum}
+anal canal: {tr: Anal kanal, la: Canalis analis}
+liver: {tr: Karaciğer, la: Hepar}
+gallbladder: {tr: Safra kesesi, la: Vesica biliaris}
+common bile duct: {tr: Ortak safra kanalı, la: Ductus choledochus}
+pancreas: {tr: Pankreas, la: Pancreas}
+peritoneum: {tr: Karın zarı, la: Peritoneum}
+greater omentum: {tr: Büyük omentum, la: Omentum majus}
+mesentery: {tr: Mezenter, la: Mesenterium}
+
+# ---------- Üriner ----------
+renal system: {tr: Üriner sistem, la: Systema urinarium}
+ureter: {tr: Üreter (idrar borusu), la: Ureter}
+urinary bladder: {tr: İdrar kesesi, la: Vesica urinaria}
+urethra: {tr: Üretra (idrar yolu), la: Urethra}
+nephron: {tr: Nefron, la: Nephronum}
+cortex of kidney: {tr: Böbrek korteksi, la: Cortex renalis}
+
+# ---------- Üreme ----------
+reproductive system: {tr: Üreme sistemi, la: Systema genitale}
+testis: {tr: Testis (erbezi), la: Testis}
+epididymis: {tr: Epididim, la: Epididymis}
+vas deferens: {tr: Sperm kanalı, la: Ductus deferens}
+seminal vesicle: {tr: Sperm kesesi, la: Glandula vesiculosa}
+prostate gland: {tr: Prostat bezi, la: Prostata}
+penis: {tr: Penis, la: Penis}
+scrotum: {tr: Skrotum (erbezi torbası), la: Scrotum}
+ovary: {tr: Yumurtalık, la: Ovarium}
+uterus: {tr: Rahim, la: Uterus}
+uterine cervix: {tr: Rahim boynu, la: Cervix uteri}
+vagina: {tr: Vajina, la: Vagina}
+mammary gland: {tr: Meme bezi, la: Glandula mammaria}
+
+# ---------- Endokrin ----------
+endocrine system: {tr: Endokrin sistem, la: Systema endocrinum}
+pituitary gland: {tr: Hipofiz bezi, la: Hypophysis}
+pineal body: {tr: Epifiz bezi, la: Glandula pinealis}
+thyroid gland: {tr: Tiroit bezi, la: Glandula thyroidea}
+parathyroid gland: {tr: Paratiroit bezi, la: Glandula parathyroidea}
+adrenal gland: {tr: Böbrek üstü bezi, la: Glandula suprarenalis}
+islet of Langerhans: {tr: Langerhans adacığı, la: Insulae pancreaticae}
+
+# ---------- Deri ve duyu organları ----------
+integumental system: {tr: Örtü sistemi, la: Integumentum commune}
+skin of body: {tr: Deri, la: Cutis}
+skin epidermis: {tr: Üst deri (epidermis), la: Epidermis}
+dermis: {tr: Alt deri (dermis), la: Dermis}
+strand of hair: {tr: Kıl, la: Pilus}
+nail: {tr: Tırnak, la: Unguis}
+camera-type eye: {tr: Göz, la: Bulbus oculi}
+retina: {tr: Ağ tabaka (retina), la: Retina}
+cornea: {tr: Kornea (saydam tabaka), la: Cornea}
+lens of camera-type eye: {tr: Göz merceği, la: Lens}
+iris: {tr: İris, la: Iris}
+ear: {tr: Kulak, la: Auris}
+external ear: {tr: Dış kulak, la: Auris externa}
+middle ear: {tr: Orta kulak, la: Auris media}
+internal ear: {tr: İç kulak, la: Auris interna}
+cochlea: {tr: Salyangoz (koklea), la: Cochlea}
+tympanic membrane: {tr: Kulak zarı, la: Membrana tympanica}
+nose: {tr: Burun, la: Nasus}
+
+# ---------- Bölgeler ----------
+head: {tr: Baş, la: Caput}
+neck: {tr: Boyun, la: Collum}
+face: {tr: Yüz, la: Facies}
+chest: {tr: Göğüs, la: Thorax}
+abdomen: {tr: Karın, la: Abdomen}
+perineum: {tr: Perine, la: Perineum}
+pelvic region of trunk: {tr: Pelvis bölgesi, la: Pelvis}
+dorsum: {tr: Sırt, la: Dorsum}
+forelimb: {tr: Üst ekstremite (kol), la: Membrum superius}
+hindlimb: {tr: Alt ekstremite (bacak), la: Membrum inferius}
+shoulder: {tr: Omuz, la: Regio deltoidea}
+hip: {tr: Kalça, la: Regio coxae}
+manus: {tr: El, la: Manus}
+pes: {tr: Ayak, la: Pes}
+skeletal system: {tr: İskelet sistemi, la: Systema skeletale}
+bone element: {tr: Kemik, la: Os}
+
+# ---------- Bölge ayrıntıları ----------
+hindlimb stylopod: {tr: Uyluk bölgesi, la: Regio femoris}
+forelimb stylopod: {tr: Kol bölgesi, la: Regio brachii}
+hindlimb zeugopod: {tr: Bacak (diz altı), la: Crus}
+forelimb zeugopod: {tr: Ön kol, la: Antebrachium}

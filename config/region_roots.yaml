@@ -1,0 +1,28 @@
+# Ontoloji kökü → sistem / bölge eşlemesi.
+# R2 gereği burada ID YOK: kökler Uberon'daki terim ADLARIYLA verilir ve
+# registry üretilirken ontoloji dosyasından çözümlenir. Bulunamayan ad uyarı olarak raporlanır.
+# Bir yapının sistemi/bölgesi: (is_a ∪ part_of) atalarından biri buradaki bir kök ise atanır.
+
+system:
+  skeletal: [skeletal system, bone element, forelimb skeleton, hindlimb skeleton, vertebral column, skull]
+  articular: [skeletal joint, synovial joint, ligament, knee joint, hip joint]
+  muscular: [musculature of body, muscle organ, tendon, fascia]
+  nervous: [nervous system, nerve, cranial nerve, spinal nerve, brain, spinal cord]
+  cardiovascular: [cardiovascular system, heart, blood vessel, artery, vein]
+  lymphatic: [lymphoid system, lymphatic part of lymphoid system, lymph vasculature, lymphatic vessel, lymph node, spleen, thymus, tonsil]
+  respiratory: [respiratory system, lung]
+  digestive: [digestive system]
+  urinary: [renal system, urinary bladder]
+  reproductive: [reproductive system]
+  endocrine: [endocrine system, endocrine gland]
+  integumentary: [integumental system, integument, skin of body, mammary gland]
+  special_senses: [sense organ, camera-type eye, visual system, ear, auditory system, olfactory system]
+
+region:
+  head_neck: [head, neck, face]
+  back: [dorsum, vertebral column]
+  thorax: [chest, thoracic segment of trunk, heart, lung]
+  abdomen: [abdomen]
+  pelvis_perineum: [pelvic region of trunk, perineum, pelvic girdle region]
+  upper_limb: [forelimb, pectoral girdle region, shoulder, manus, forelimb skeleton]
+  lower_limb: [hindlimb, hip, pes, hindlimb skeleton]
